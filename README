@@ -1,0 +1,9 @@
+== res: resolve IP addresses to DNS hostnames with validation
+
+Res resolves one or more IP addresses to DNS hostnames, generally
+validating that the resulting name includes the original IP address as
+one of its IP addresses. If names are unresolvable or have validation
+problems, this will be reported (by default, see 'res -h' for command
+line arguments).
+
+	- Chris Siebenmann, September 23 2024
